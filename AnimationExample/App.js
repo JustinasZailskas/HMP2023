@@ -1,0 +1,42 @@
+import { StatusBar } from "expo-status-bar";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Animated,
+  Button,
+  SafeAreaView,
+} from "react-native";
+import React, { useRef, useEffect, useState } from "react";
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from "./src/screens/HomeScreen";
+import FirstExample from "./src/screens/FirstExample";
+import SecondExample from "./src/screens/SecondExample";
+import ThirdExample from "./src/screens/ThirdExample";
+
+const Stack = createNativeStackNavigator();
+
+
+export default function App() {
+  
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen}/>
+        <Stack.Screen name="FirstExample" component={FirstExample} />
+        <Stack.Screen name="SecondExample" component={SecondExample} />
+        <Stack.Screen name="ThirdExample" component={ThirdExample} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
