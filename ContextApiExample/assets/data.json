@@ -1,0 +1,263 @@
+{
+    "league":[
+      {
+        "id": 1,
+        "league_title": "STREET"
+      },
+      {
+        "id": 2,
+        "league_title": "SEMI PRO"
+      }, 
+      {
+        "id": 3,
+        "league_title": "PRO"
+      }
+    ],
+    "event": [
+        {
+          "id": 1,
+          "event_title": "Bikernieki, Ryga, Latvija",
+          "organizator": "Latvian Drift",
+          "beginDate": "2023-05-13",
+          "finishDate": "2023-05-14",
+          "leagues": ["PRO"],
+          "sportity_channnel": "DRIFT1"
+        },
+        {
+          "id": 2,
+          "event_title": "Klaipėda",
+          "organizator": "MB Cinkas",
+          "beginDate": "2023-05-20",
+          "finishDate": "2023-05-20",
+          "leagues": ["STREET"],
+          "sportity_channnel": "STREET"
+        },
+        {
+          "id": 3,
+          "event_title": "Kačerginė (UpHill)",
+          "organizator": "MB Cinkas",
+          "beginDate": "2023-06-02",
+          "finishDate": "2023-06-03",
+          "leagues": ["SEMI PRO", "PRO"],
+          "sportity_channnel": "DRIFT2"
+        },
+        {
+          "id": 4,
+          "event_title": "Marijampolė",
+          "organizator": "VšĮ Ichiban",
+          "beginDate": "2023-06-10",
+          "finishDate": "2023-06-11",
+          "leagues": ["STREET"],
+          "sportity_channnel": "STREET2"
+        },
+        {
+          "id": 5,
+          "event_title": "Kuršėnai (Driftiškės)",
+          "organizator": "MB Cinkas",
+          "beginDate": "2023-06-24",
+          "finishDate": "2023-06-25",
+          "leagues": ["PRO"],
+          "sportity_channnel": "DRIFT3"
+        },
+        {
+          "id": 6,
+          "event_title": "Alytus",
+          "organizator": "VšĮ Autosportas LT",
+          "beginDate": "2023-07-01",
+          "finishDate": "2023-07-02",
+          "leagues": ["STREET","SEMI PRO"],
+          "sportity_channnel": "SEMI2"
+        },
+        {
+          "id": 7,
+          "event_title": "Molėtai",
+          "organizator": "Molėtų ASK",
+          "beginDate": "2023-07-22",
+          "finishDate": "2023-07-23",
+          "leagues": ["STREET","SEMI PRO"],
+          "sportity_channnel": "SEMI3"
+        }    
+    ],
+    
+    "semi_drivers": [
+        {
+            "driver_id": 1,
+            "firstname": "Karolis",
+            "lastname": "Kolosovas",
+            "car": "BWM E30",
+            "race": [
+                {
+                    "race_id": 3,
+                    "qualification_position": 6,
+                    "qualification_result": 81, 
+                    "qualification_points": 4,
+                    "tandem_result": "TOP 8",
+                    "tandem_points": 61
+                }, 
+                {
+                    "race_id": 6, 
+                    "qualification_position": 5,
+                    "qualification_result": 83, 
+                    "qualification_points": 4,
+                    "tandem_result": "TOP 16",
+                    "tandem_points": 54
+                }, 
+                {
+                    "race_id": 7, 
+                    "qualification_position": 2,
+                    "qualification_result": 85, 
+                    "qualification_points": 10,
+                    "tandem_result": "TOP 8",
+                    "tandem_points": 61
+                }
+            ]
+        }, 
+        {
+            "driver_id": 2,
+            "firstname": "Edvinas",
+            "lastname": "Savickas",
+            "car": "BWM E87",
+            "race": [
+                {
+                    "race_id": 3,
+                    "qualification_position": 14,
+                    "qualification_result": 72, 
+                    "qualification_points": 1,
+                    "tandem_result": "2",
+                    "tandem_points": 88
+                }, 
+                {
+                    "race_id": 6, 
+                    "qualification_position": 4,
+                    "qualification_result": 83, 
+                    "qualification_points": 6,
+                    "tandem_result": "TOP 16",
+                    "tandem_points": 54
+                },
+                {
+                    "race_id": 7, 
+                    "qualification_position": 20,
+                    "qualification_result": 77, 
+                    "qualification_points": 0.5,
+                    "tandem_result": "4",
+                    "tandem_points": 69
+                }
+            ]
+        }, 
+        {
+            "driver_id": 3,
+            "firstname": "Edvinas",
+            "lastname": "Litvinskas",
+            "car": "Nissan 200SX S13 5.0 V8",
+            "race": [
+                {
+                    "race_id": 3,
+                    "qualification_position": 4,
+                    "qualification_result": 87, 
+                    "qualification_points": 6,
+                    "tandem_result": "1",
+                    "tandem_points": 100
+                }, 
+                {
+                    "race_id": 6, 
+                    "qualification_position": 19,
+                    "qualification_result": 77, 
+                    "qualification_points": 0.5,
+                    "tandem_result": "TOP 16",
+                    "tandem_points": 54
+                },
+                {
+                    "race_id": 7, 
+                    "qualification_position": 27,
+                    "qualification_result": 76, 
+                    "qualification_points": 0.25,
+                    "tandem_result": "TOP 32",
+                    "tandem_points": 24
+                }
+            ]
+        }
+    ],
+    "street_drivers": [
+        {
+            "driver_id": 4,
+            "firstname": "Žygimantas",
+            "lastname": "Buožius",
+            "car": "BWM E36 Coupe",
+            "race": [
+                {
+                    "race_id": 2,
+                    "qualification_position": 1,
+                    "qualification_result": 92, 
+                    "qualification_points": 12,
+                    "tandem_result": "2",
+                    "tandem_points": 88
+                }
+            ]
+        }, 
+        {
+            "driver_id": 5,
+            "firstname": "Andrius",
+            "lastname": "Juškevičius",
+            "car": "BWM E46",
+            "race": [
+                {
+                    "race_id": 2,
+                    "qualification_position": 2,
+                    "qualification_result": 90, 
+                    "qualification_points": 10,
+                    "tandem_result": "1",
+                    "tandem_points": 100
+                },
+                {
+                    "race_id": 4,
+                    "qualification_position": 8,
+                    "qualification_result": 92, 
+                    "qualification_points": 3,
+                    "tandem_result": "TOP 32",
+                    "tandem_points": 24
+                }
+            ]
+        },
+        {
+            "driver_id": 6,
+            "firstname": "Aivaras",
+            "lastname": "Maciulevičius",
+            "car": "BWM E46",
+            "race": [
+                {
+                    "race_id": 2,
+                    "qualification_position": 14,
+                    "qualification_result": 78, 
+                    "qualification_points": 1,
+                    "tandem_result": "3",
+                    "tandem_points": 78
+                },
+                {
+                    "race_id": 4,
+                    "qualification_position": 1,
+                    "qualification_result": 97, 
+                    "qualification_points": 12,
+                    "tandem_result": "3",
+                    "tandem_points": 78
+                }
+            ]
+        }, 
+        {
+            "driver_id": 7,
+            "firstname": "Simas",
+            "lastname": "Valinskas",
+            "car": "BMW E36 3.0i",
+            "race": [
+                {
+                    "race_id": 4,
+                    "qualification_position": 11,
+                    "qualification_result": 91, 
+                    "qualification_points": 2,
+                    "tandem_result": "TOP 16",
+                    "tandem_points": 54
+                }
+            ]
+        }
+    ]      
+
+}
